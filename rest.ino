@@ -55,7 +55,7 @@ void processURLs(){
   });
   
    
-   server.on("/setting", []() {
+   server.on("/setTimeout", []() {
       String stip = server.arg("segundosON");
       if (stip.length() > 0 ) {
         for (int i = 0; i < 7; ++i) {
